@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="Primitive types">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ReadFromConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/oop/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/oop/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/oop/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/striker25/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/striker25/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,10 +51,22 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/FernandoRomanVentura/Documents/PersonalProjects/introduction-to-java/src/main/java/org/striker25/oop",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="org.striker25.oop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReadFromConsole">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.striker25.HelloWorld" />
       <module name="introduction-to-java.main" />
@@ -56,8 +80,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadFromConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.striker25.basics.ReadFromConsole" />
+      <module name="introduction-to-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.striker25.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.striker25.basics.Variable" />
+      <module name="introduction-to-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.striker25.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromConsole" />
+        <item itemvalue="Application.Variable" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -70,8 +122,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663297633586</updated>
-      <workItem from="1663297639224" duration="2624000" />
+      <workItem from="1663297639224" duration="5384000" />
+      <workItem from="1664157522624" duration="6392000" />
     </task>
+    <task id="LOCAL-00001" summary="Hello World!">
+      <created>1663300606672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663300606672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Hello World!" />
+    <MESSAGE value="Primitive types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primitive types" />
   </component>
 </project>
