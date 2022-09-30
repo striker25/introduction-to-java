@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="Primitive types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/oop/Polymorphism.java" afterDir="false" />
+    <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="feat: Polymorphism example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,20 @@
       <recent name="org.striker25.oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polymorphism">
+  <component name="RunManager" selected="Application.ConditionalFlow">
+    <configuration name="ConditionalFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.striker25.basics.ConditionalFlow" />
+      <module name="introduction-to-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.striker25.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.striker25.HelloWorld" />
       <module name="introduction-to-java.main" />
@@ -112,17 +125,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <option name="AUTO_RESTART" value="false" />
+    <configuration default="true" type="aws.lambda" factoryName="Remote">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="functionName" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConditionalFlow" />
         <item itemvalue="Application.Polymorphism" />
         <item itemvalue="Application.ReadFromConsole" />
         <item itemvalue="Application.Variable" />
@@ -140,7 +153,8 @@
       <updated>1663297633586</updated>
       <workItem from="1663297639224" duration="5384000" />
       <workItem from="1664157522624" duration="6392000" />
-      <workItem from="1664334297694" duration="3736000" />
+      <workItem from="1664334297694" duration="4330000" />
+      <workItem from="1664506537044" duration="5216000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1663300606672</created>
@@ -149,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663300606672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Polymorphism example">
+      <created>1664338210793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664338210793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +191,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Hello World!" />
     <MESSAGE value="Primitive types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primitive types" />
+    <MESSAGE value="feat: Polymorphism example" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Polymorphism example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,6 +211,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/striker25/oop/Polymorphism.java</url>
           <line>121</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
