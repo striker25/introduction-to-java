@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="feat: Polymorphism example">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/java-console.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ReadFromConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ReadFromConsole.java" afterDir="false" />
-    </list>
+    <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="feat: added more samples and README" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +148,7 @@
       <workItem from="1664157522624" duration="6392000" />
       <workItem from="1664334297694" duration="4330000" />
       <workItem from="1664506537044" duration="5216000" />
-      <workItem from="1665352870226" duration="9700000" />
+      <workItem from="1665352870226" duration="9900000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1663300606672</created>
@@ -170,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664338210793</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: added more samples and README">
+      <created>1665371695931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665371695931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +193,8 @@
     <MESSAGE value="Hello World!" />
     <MESSAGE value="Primitive types" />
     <MESSAGE value="feat: Polymorphism example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Polymorphism example" />
+    <MESSAGE value="feat: added more samples and README" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added more samples and README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

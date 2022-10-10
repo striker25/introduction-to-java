@@ -2,6 +2,15 @@
 
 #### By Fernando Ventura - 10/28/2022 ####
 
+JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995, later acquired by
+Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and
+debugging programming easy. It helps to create reusable code and modular programs. Java is a
+class-based, object-oriented programming language and is designed to have as few implementation
+dependencies as possible. A general-purpose programming language made for developers to write once
+run anywhere that is compiled Java code can run on all platforms that support Java. Java
+applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java
+is similar to c/c++. Source: [geeksforgeeks.org](https://www.geeksforgeeks.org/introduction-to-java/)
+
 ## Installation ##
 
 For using Java, the first step is to install the Java Virtual Machine (a.k.a. JVM), this is part
