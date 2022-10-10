@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568ee05f-5790-4c42-a875-ea3729fa8745" name="Changes" comment="feat: Polymorphism example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/java-console.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ReadFromConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/striker25/basics/ReadFromConsole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +42,26 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/FernandoRomanVentura/Documents/PersonalProjects/introduction-to-java/src/main/java/org/striker25/oop&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/FernandoRomanVentura/Documents/PersonalProjects/introduction-to-java/src/main/java/org/striker25/oop",
+    "last_opened_file_path": "C:/Users/FernandoRomanVentura/Documents/PersonalProjects/introduction-to-java/docs",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FernandoRomanVentura\Documents\PersonalProjects\introduction-to-java\docs" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="org.striker25.oop" />
     </key>
@@ -125,14 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConditionalFlow" />
@@ -155,6 +154,7 @@
       <workItem from="1664157522624" duration="6392000" />
       <workItem from="1664334297694" duration="4330000" />
       <workItem from="1664506537044" duration="5216000" />
+      <workItem from="1665352870226" duration="9700000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World!">
       <created>1663300606672</created>
@@ -214,7 +214,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/striker25/basics/ConditionalFlow.java</url>
-          <line>70</line>
+          <line>77</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

@@ -4,8 +4,18 @@ import java.util.Scanner;
 
 public class ReadFromConsole {
 
+  private static final Scanner scanner = new Scanner(System.in);
+
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+
+    runAgeGame();
+    println("======================================]");
+    println("To exit, press any key...");
+    scanner.nextLine();
+    scanner.close();
+  }
+
+  public static void runAgeGame() {
 
     println("What's is your name? ");
     String name = scanner.nextLine();
@@ -15,15 +25,27 @@ public class ReadFromConsole {
 
     println("Your name is: %s".formatted(name));
 
-    magicMage(age);
-
-    println("======================================]");
-    println("To exit, press any key...");
-    scanner.nextLine();
-    scanner.close();
+    magicAge(age);
   }
 
-  private static void magicMage(int age) {
+  public static boolean shouldExitTheGame() {
+    while (true){
+      println("======================================]");
+      println("Do you want to play again? (Y/N)");
+      scanner.nextLine(); // flush
+      String choice = scanner.nextLine();
+
+      if (choice != null && choice.equalsIgnoreCase("Y")){
+        return true;
+      } else if (choice != null && choice.equalsIgnoreCase("N")){
+        return false;
+      } else {
+        System.out.println("Didn't understand your input, try again.");
+      }
+    }
+  }
+
+  private static void magicAge(int age) {
     if (age == 1) {
       println("You are an Infant");
     } else if (age >= 2 && age <= 4) {
